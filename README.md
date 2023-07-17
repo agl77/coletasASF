@@ -3,7 +3,7 @@
 Coleta de temperatura e umidade de uma caixa de abelha sem ferrão Mandaçaia MQQ, melipona quadrifasciata quadrifasciata.
 O arquivo teve que ser compactado para o GitHub permitir o Upload.
 
-/images/Montagem_coletor.png
+![Montagem do coletor](/images/Montagem_coletor.png)
 
 
 
