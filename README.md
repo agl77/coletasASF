@@ -1,12 +1,10 @@
 # coletasASF
 
-Arquivo CSV com um dataset derivado da coleta de temperatura e umidade de uma caixa de abelha sem ferrão Mandaçaia MQQ, melipona quadrifasciata quadrifasciata.
+Nesse repositório está um arquivo CSV com um dataset derivado da coleta de temperatura e umidade de uma caixa de abelha sem ferrão Mandaçaia MQQ, melipona quadrifasciata quadrifasciata.
+A coleta foi realizada no período de 15 de fevereiro de 2022 a 10 de março de 2023.
 
 ![Abelha Mandaçaia MQQ](images/foto_abelha_grama.png)
 
-## Descrição
-
-Este projeto se refere à coleta de dados de temperatura e umidade em uma caixa de abelha sem ferrão Mandaçaia MQQ, utilizando um coletor de dados. A coleta foi realizada no período de 15 de fevereiro de 2022 a 10 de março de 2023.
 
 ### Caixa modular modelo INPA
 
@@ -16,7 +14,7 @@ A coleta de dados foi realizada em uma caixa modular modelo INPA. A caixa é div
 
 ### Coletor de dados
 
-O coletor de dados foi construído utilizando um microcontrolador ESP8266 (Esp D1 Mini) e um sensor SHTC3. A montagem do coletor é mostrada na imagem abaixo:
+O coletor de dados foi construído utilizando um microcontrolador ESP8266 (Esp D1 Mini) e um sensor SHTC3. O esquema do coletor é apresentado na imagem abaixo:
 
 ![Sensor conectado no Esp D1 mini](images/d1Sensor.png)
 
@@ -42,14 +40,8 @@ Colunas presentes são:
 |measure| Tipo da unidade medida, temperature ou humidity |
 |valuemeasure| Valor medido |
 
-
-
-
-
-
-
 ### Script Python boxplot.py
 Desenvolvido para:
 * retirar os dados provenientes dos sensores teste, Caixa03 e testePy;
 * além de apresentar as estatísticas do dataset;
-* apresentar gráficos boxplot separados por unidade de medida e sensor.
+* apresentar gráfico boxplot agrupados por unidade de medida e sensor.
