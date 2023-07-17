@@ -2,7 +2,7 @@
 
 Coleta de temperatura e umidade de uma caixa de abelha sem ferrão Mandaçaia MQQ, melipona quadrifasciata quadrifasciata.
 
-![Abelha Mandaçaia MQQ](images/foto_abelha_grama.jpg)
+![Abelha Mandaçaia MQQ](images/foto_abelha_grama.png)
 
 ## Descrição
 
