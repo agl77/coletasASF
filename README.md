@@ -14,7 +14,7 @@ A coleta de dados foi realizada em uma caixa modular modelo INPA. A caixa é div
 
 ### Coletor de dados
 
-O coletor de dados foi construído utilizando um microcontrolador ESP8266 (Esp D1 Mini) e um sensor SHTC3. O esquema do coletor é apresentado na imagem abaixo:
+O coletor de dados foi desenvolvido utilizando um microcontrolador ESP8266 (Esp D1 Mini) e um sensor SHTC3. O Firmware foi substituído por microPython, isso posibilitou a criação de scripts em Python para executar as funções de coleta e transmissão dos dados. O esquema do coletor é apresentado na imagem abaixo:
 
 ![Sensor conectado no Esp D1 mini](images/d1Sensor.png)
 
