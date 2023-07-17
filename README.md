@@ -1,6 +1,6 @@
 # coletasASF
 
-Coleta de temperatura e umidade de uma caixa de abelha sem ferrão Mandaçaia MQQ, melipona quadrifasciata quadrifasciata.
+Arquivo CSV com um dataset derivado da coleta de temperatura e umidade de uma caixa de abelha sem ferrão Mandaçaia MQQ, melipona quadrifasciata quadrifasciata.
 
 ![Abelha Mandaçaia MQQ](images/foto_abelha_grama.png)
 
@@ -32,3 +32,24 @@ O dataset possui um total de 1.335.098 linhas com as coletas dos sensores "teste
 
 Os equipamentos de teste mencionados, "Caixa03" e "testePy", foram utilizados durante o desenvolvimento do código e seus dados não são reais.
 
+Colunas presentes são: 
+
+| Campo | Descritivo |
+|---|---------|
+|id| Identificador único para linha|
+|datetime| Carimbo de data e hora|
+|sensor| nome do coletor |
+|measure| Tipo da unidade medida, temperature ou humidity |
+|valuemeasure| Valor medido |
+
+
+
+
+
+
+
+### Script Python boxplot.py
+Desenvolvido para:
+* retirar os dados provenientes dos sensores teste, Caixa03 e testePy;
+* além de apresentar as estatísticas do dataset;
+* apresentar gráficos boxplot separados por unidade de medida e sensor.
